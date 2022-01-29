@@ -83,7 +83,7 @@ button {
     color: hsl(179, 100%, 13%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 500px) {
     .general-preview {
     background-color: hsl(0, 0%, 95%);
     height: 140rem;
