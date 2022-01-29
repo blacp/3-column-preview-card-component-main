@@ -1,0 +1,100 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.general-preview {
+    background-color: hsl(0, 0%, 95%);
+    height: 40rem;
+    display: grid;
+    position: relative;
+}
+
+.preview {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0px;
+    padding-left: 12rem;
+    padding-top: 9rem;
+    right: 19rem;
+    position: absolute;
+}
+
+
+
+.icon {
+    margin-top: 10px;
+    padding: 28px;
+    margin-left: 20px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    height: 25rem;
+    width: 16rem;
+}
+
+h1 {
+    margin-left: 3rem;
+    color: hsl(0, 0%, 95%);
+    font-family: Big Shoulders Display;
+}
+
+p {
+    margin: 2rem;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-left: 3rem;
+}
+
+.SUVs {
+    background-color: hsl(184, 100%, 22%);
+    height: 25rem;
+    width: 16rem;
+}
+
+.Luxury {
+    background-color: hsl(179, 100%, 13%);
+    height: 25rem;
+    width: 16rem;
+}
+
+.guide-1 {
+    margin: auto;
+    color: hsl(31, 77%, 52%);
+}
+
+button {
+    border-radius: 1.4rem;
+    height: 2.4rem;
+    width: 7rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    border-color: hsl(0, 0%, 95%);
+    border-bottom-color: hsl(0, 0%, 95%);
+}
+
+.guide-2 {
+    margin: auto;
+    color: hsl(184, 100%, 22%);
+}
+
+.guide-3 {
+    margin: auto;
+    color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 375px) {
+    .general-preview {
+    background-color: hsl(0, 0%, 95%);
+    height: 140rem;
+    width: 100rem;
+}
+
+    .preview {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    left: 1rem;
+    margin: 5rem;  
+}
+}
